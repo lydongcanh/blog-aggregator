@@ -1,0 +1,6 @@
+@BlogAggregator.ServiceHost_HostAddress = http://localhost:5234
+
+GET {{BlogAggregator.ServiceHost_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

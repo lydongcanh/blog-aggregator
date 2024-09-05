@@ -1,0 +1,6 @@
+﻿services:
+  blogaggregator.servicehost:
+    image: blogaggregator.servicehost
+    build:
+      context: .
+      dockerfile: BlogAggregator.ServiceHost/Dockerfile
